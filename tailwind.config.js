@@ -9,6 +9,9 @@ module.exports = {
     ],
 
     theme: {
+        backgroundImage: {
+            'not-found': "url('/images/404.jpeg')"
+        },
         extend: {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
