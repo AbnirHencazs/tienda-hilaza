@@ -11,7 +11,7 @@ defineProps({
 </script>
 
 <template>
-    <Head title="Welcome" />
+    <Head title="Under Construction" />
 
     <div class="relative flex items-top justify-center min-h-screen bg-white sm:items-center sm:pt-0">
         <div v-if="canLogin" class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
@@ -29,7 +29,9 @@ defineProps({
                 </Link>
             </template>
         </div>
-
-        <BreezeApplicationLogo class="w-24 h-24"/>
+        <div class="flex flex-col items-center">
+            <h1 class="text-3xl text-bold">Coming Soon</h1>
+            <BreezeApplicationLogo/>
+        </div>
     </div>
 </template>
