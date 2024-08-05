@@ -14,7 +14,7 @@ module.exports = {
         },
         extend: {
             fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                sans: ['Edu AU VIC WA NT Hand', ...defaultTheme.fontFamily.sans],
             },
         },
     },
